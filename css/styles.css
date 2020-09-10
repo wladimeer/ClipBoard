@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container h1,h2,h3 {
+    color: #4C565E;
+}
+
+.container p,h6 {
+    color: #BDC1C4;
+}
+
+.container h6:hover {
+    cursor: pointer;
+    color: #26BBA5;
+}
+
+.header {
+    text-align: center;
+    background: url(../images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+
+.header__logo {
+    margin-top: 100px;
+}
+
+.header__img {
+    width: 90px;
+}
+
+.header__text {
+    text-align: center;
+}
+
+.header__h1 {
+    margin-top: 46px;
+}
+
+.header__p {
+    width: 640px;
+    margin-top: -3px;
+    display: inline-block;
+}
+
+.header__buttons {
+    margin-top: 26px;
+}
+
+.header__button {
+    width: 200px;
+    border: none;
+    padding: 16px;
+    outline: none;
+    color: #FFFFFF;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+.button--green {
+    margin-right: 4px;
+    background: #26BBA5;
+}
+
+.button--green:hover {
+    opacity: 80%;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #1D3C37;
+}
+
+.button--blue {
+    margin-left: 4px;
+    background: #6174FF;
+}
+
+.button--blue:hover {
+    opacity: 80%;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #384187;
+}
+
+.information {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.information__text {
+    text-align: center;
+}
+
+.information__p {
+    width: 690px;
+    margin-top: -3px;
+    display: inline-block;
+}   
+
+.firstBenefits {
+    display: grid;
+    margin-top: 50px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.firstBenefits__image {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.firstBenefits__img {
+    width: 100%;
+    height: 80%;
+}
+
+.firstBenefits__information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstBenefits__text {
+    margin-left: 14%;
+}
+
+.firstBenefits__p {
+    width: 380px;
+    margin-top: -16px;
+}
+
+.secondBenefits {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.secondBenefits__image {
+    margin-top: 40px;
+}
+
+.secondBenefits__img {
+    width: 60%;
+}
+
+.secondBenefits__p {
+    width: 670px;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.options {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.options__information {
+    text-align: center;
+}
+
+.options__p {
+    width: 80%;
+    display: inline-block;
+}
+
+.business {
+    margin-top: 140px;
+}
+
+.business__icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.business__ico {
+    width: 10%;
+    height: 2%;
+    min-width: 60px;
+    min-height: 16px;
+    max-width: 120px;
+}
+
+.download {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.download__p {
+    width: 680px;
+    display: inline-block;
+}
+
+.download__buttons {
+    margin-top: 26px;
+}
+
+.download__button {
+    width: 200px;
+    border: none;
+    padding: 16px;
+    outline: none;
+    color: #FFFFFF;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: grid;
+    margin-top: 138px;
+    background: #F5F6F8;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__img {
+    width: 45px;
+    margin-left: 100px;
+}
+
+.footer__additional {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__h6:nth-last-of-type(1) {
+    margin-top: 0;
+}
+
+.footer__h6:nth-last-of-type(2) {
+    margin-top: 0;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer__icon {
+    width: 20px;
+    margin-right: 18px;
+}
+
+.footer__icon:hover {
+    cursor: pointer;
+}
+
+.footer__icon:last-of-type {
+    margin-right: 100px;
+}
+
+@media (max-width: 930px) {
+
+    .container h6 {
+        color: #727377;
+    }
+
+    .container p {
+        width: 75%;
+        font-size: 16px;
+    }
+
+    .container h2 {
+        width: 75%;
+        font-size: 30px;
+    }
+    
+    .header__img {
+        width: 120px;
+    }
+    
+    .header__h1 {
+        width: 75%;
+        font-size: 32px;
+        margin-top: 60px;
+        display: inline-block;
+    }
+    
+    .header__button {
+        width: 75%;
+    }
+
+    .button--green {
+        margin-right: 0;
+    }
+    
+    .button--blue {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .information__h2 { 
+        display: inline-block;
+    }
+
+    .firstBenefits {
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .firstBenefits__image {
+        margin-left: 0;
+    }
+    
+    .firstBenefits__img {
+        width: 80%;
+        height: auto;
+    }
+
+    .firstBenefits__text {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .firstBenefits__p {
+        display: inline-block;
+    }
+
+    .secondBenefits {
+        margin-top: 138px;
+        text-align: center;
+    }
+
+    .secondBenefits__h2 { 
+        display: inline-block;
+    }
+
+    .secondBenefits__img {
+        width: 80%;
+    }
+
+    .options {
+        margin-top: 60px;
+        grid-template-columns: 1fr;
+    }
+
+    .options__first {
+        margin-top: 0;
+    }
+
+    .options__img {
+        margin-top: 40px;
+    }
+
+    .business {
+        margin-top: 100px;
+    }
+    
+    .business__icons {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .business__ico {
+        width: 26%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    .business__first {
+        margin-top: 0px;
+    }
+    
+    .download {
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    .download__h2 {
+        display: inline-block;
+    }
+    
+    .download__button {
+        width: 75%;
+    }
+
+    .footer {
+        text-align: center;
+        padding-bottom: 50px;
+        grid-template-columns: 1fr;
+    }
+
+    .footer__logo {
+        margin-top: 50px;
+        display: inline-block;
+    }
+    
+    .footer__img {
+        margin-left: 0;
+    }
+    
+    .footer__additional {
+        display: inline-block;
+    }
+
+    .footer__social {
+        margin-top: 30px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .footer__icon {
+        width: 26px;
+        margin-right: 32px;
+    }
+
+    .footer__icon:last-of-type {
+        margin-right: 0;
+    }
+
+}
